@@ -37,7 +37,7 @@
 </repositories>
 ~~~
 
-2、版本号查看[https://oss.sonatype.org/content/repositories/snapshots/com/github/liuweijw/commons/](https://oss.sonatype.org/content/repositories/snapshots/com/github/liuweijw/commons/)
+2、版本号查看[https://oss.sonatype.org/content/repositories/snapshots/com/github/luozhonghua/commons/](https://oss.sonatype.org/content/repositories/snapshots/com/github/luozhonghua/commons/)
 
 3、项目工程依赖
 ~~~

@@ -3,7 +3,7 @@
   ~ /*
   ~  * MIT License
 
-  ~  * Copyright (c) 2018 liuweijw
+  ~  * Copyright (c) 2018 luozhonghua
 
   ~  * Permission is hereby granted, free of charge, to any person obtaining a copy
   ~  * of this software and associated documentation files (the "Software"), to deal
@@ -35,7 +35,7 @@
     <packaging>pom</packaging>
 
 	<name>st-cloud-commons</name>
-  	<url>https://github.com/liuweijw</url>
+  	<url>https://github.com/luozhonghua</url>
   	<description>
   		常用工具、Bean封装
   	</description>
@@ -48,20 +48,20 @@
 
   	<developers>
       <developer>
-          <name>liuweijw</name>
-          <email>liuweijw.github@foxmail.com</email>
+          <name>luozhonghua</name>
+          <email>luozhonghua.github@foxmail.com</email>
           <roles>
               <role>Owner</role>
           </roles>
           <timezone>+8</timezone>
-          <url>https://github.com/liuweijw</url>
+          <url>https://github.com/luozhonghua</url>
       </developer>
    	</developers>
 
    	<scm>
-       <connection>scm:git:https://github.com/liuweijw/cloud-commons.git</connection>
-       <developerConnection>scm:git:https://github.com/liuweijw/cloud-commons.git</developerConnection>
-       <url>https://github.com/liuweijw/cloud-commons</url>
+       <connection>scm:git:https://github.com/luozhonghua/foxcommon.git</connection>
+       <developerConnection>scm:git:https://github.com/luozhonghua/foxcommon.git</developerConnection>
+       <url>https://github.com/luozhonghua/foxcommon</url>
        <tag>${project.version}</tag>
    	</scm>
 
@@ -72,14 +72,14 @@
         <fastjson.version>1.2.30</fastjson.version>
         <commons.version>3.5</commons.version>
         <lombok.version>1.16.20</lombok.version>
-		<swagger2.version>2.9.0</swagger2.version>
+		<swagger2.version>2.9.1</swagger2.version>
 		<spring-boot.version>1.5.12.RELEASE</spring-boot.version>
 		<cloud-commons.version>1.0.5-SNAPSHOT</cloud-commons.version>
     </properties>
 
 	<modules>
-		<module>cloud-commons-base</module>
 		<module>cloud-commons-utils</module>
+		<module>cloud-commons-base</module>
 		<module>cloud-commons-pay</module>
 		<!--<module>cloud-commons-config</module> -->
 	</modules>
